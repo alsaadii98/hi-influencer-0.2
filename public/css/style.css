@@ -1,0 +1,189 @@
+body {
+    font-family: 'Palanquin', sans-serif;
+  }
+  .box-rounded {
+    border-radius: 4rem;
+  }
+  @media screen and (max-width: 600px) {
+    .box-rounded {
+      border-radius: 1.5rem;
+    }
+  }
+  #fontColor {
+    color: #d45252;
+  }
+  #bg-color-main{
+    background-color: #d45252;
+  }
+  #MainColor {
+    background: rgb(40, 47, 72);
+    background: linear-gradient(
+      153deg,
+      rgba(40, 47, 72, 1) 0%,
+      rgba(136, 67, 78, 1) 100%,
+      rgba(212, 82, 82, 1) 100%
+    );
+  }
+  #ColorBtn {
+    background: rgb(58, 74, 133);
+    background: linear-gradient(
+      153deg,
+      rgba(58, 74, 133, 1) 8%,
+      rgba(212, 82, 82, 1) 100%
+    );
+  }
+  #CardBlue {
+    background: rgb(116, 127, 170);
+    background: linear-gradient(
+      153deg,
+      rgba(116, 127, 170, 1) 14%,
+      rgba(34, 48, 100, 1) 100%
+    );
+  }
+  #CardRed {
+    background: rgb(212, 82, 82);
+    background: linear-gradient(
+      153deg,
+      rgba(212, 82, 82, 1) 14%,
+      rgba(197, 72, 72, 1) 100%
+    );
+  }
+  #CirRed {
+    background: rgb(212, 82, 82);
+    background: linear-gradient(
+      250deg,
+      rgba(212, 82, 82, 1) 0%,
+      rgb(241, 163, 163) 95%
+    );
+  }
+  #CirBlue {
+    background: rgb(116, 127, 170);
+    background: linear-gradient(
+      159deg,
+      rgb(168, 182, 241) 0%,
+      rgba(34, 48, 100, 1) 100%
+    );
+  }
+  #counters {
+    background: rgb(232, 232, 232);
+    background: linear-gradient(
+      318deg,
+      rgba(232, 232, 232, 1) 46%,
+      rgba(210, 210, 210, 1) 100%
+    );
+  }
+  .Card1 {
+    height: 0.15rem;
+    
+  }
+  .Card2 {
+    height: 0.15rem;
+    
+  }
+  .Card3 {
+    height: 0.15rem;
+    
+  }
+  .Card4{
+    height: 0.15rem;
+    
+  }
+  /* //////////////////////////////////////// */
+  .glide__slide img {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .glide__slide img {
+      width: 100%;
+      padding: 2.8rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .glide__slide img {
+      width: 100%;
+      padding: 3rem;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .glide__slide img {
+      width: 100%;
+      padding: 2.5rem;
+    }
+  }
+  .glide__slide {
+    filter: blur(10xp);
+    opacity: 0.3;
+    transition: all 0.6s ease-in-out;
+  }
+  .glide__slide--active {
+    opacity: 1;
+    filter: none;
+    transform: scale(1.1, 1.1);
+  }
+  .glide__slides {
+    overflow: visible;
+  }
+  .nav {
+    display: inline;
+    align-items: center;
+  }
+  /* /////////////////////////////////////// */
+  /* Animation */
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInDown {
+    0% {
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideInDown {
+    0% {
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
