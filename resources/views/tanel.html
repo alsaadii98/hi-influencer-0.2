@@ -1,0 +1,39 @@
+<div class="overflow-x-auto">
+    <div class="min-w-screen min-h-screen bg-gray-100 flex items-center justify-center bg-gray-100 font-sans overflow-hidden">
+        <div class="w-full lg:w-5/6">
+            <div class="bg-white shadow-md rounded my-6">
+                <table class="min-w-max w-full table-auto">
+                    <thead>
+                        <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                            <th class="py-3 px-3 text-left">ID</th>
+                            <th class="py-3 px-3 text-left">Name</th>
+                            <th class="py-3 px-8 text-left">Message</th>
+                            <th class="py-3 px-6 text-center">Email</th>
+                            <th class="py-3 px-6 text-center">Phone Number</th>
+                            <th class="py-3 px-6 text-center">Company link</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-600 text-sm font-light">
+                        @foreach($emails as $email)
+                            <tr class="border-b border-gray-200 hover:bg-gray-100">
+                                <td class="py-3 px-6 text-left whitespace-nowrap">
+                                    <span class="font-medium">{{$email->id}}</span>
+                                </td>
+                                <td class="py-3 px-6 text-left">
+                                    <span class="font-medium">{{$email->name}}</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="leading-loose text-md" >{{$email->info}}</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="text-lg" >{{$email->email}}</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="text-lg" >{{$email->phone}}</span>
+                                </td>
+                                <td class="py-3 px-6 text-center">
+                                    <span class="text-lg" >{{$email->link}}</span>
+                                </td>
+                            </tr>
+                        @endforeach
+                    </tbody>
