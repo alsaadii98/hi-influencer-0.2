@@ -19,7 +19,7 @@
 <body class=" bg-gray-200 fadeIn">
      <!-- NavBar -->
      <nav class="mt-5 px-2">
-        <div class="lg:max-w-6xl m-3  lg:mx-auto">
+        <div class="lg:max-w-7xl  lg:mx-auto">
           <div class="flex items-center justify-between">
               <!-- Logo -->
               <div>
@@ -52,7 +52,7 @@
                     @csrf
                 </form>
             </div>
-              
+          </div>     
       </div>
       </nav>
       <!-- Main -->
@@ -60,47 +60,58 @@
      <div class="overflow-x-auto">
         <div class="min-w-screen min-h-screen bg-gray-200 flex  justify-center bg-gray-100 font-sans overflow-hidden">
             <div class="w-full lg:w-5/6">
-                <div class="bg-white shadow-md rounded my-6">
+                <div class="bg-white rounded my-6">
                     <table class="min-w-max w-full table-auto">
                         <thead>
                             <tr class="bg-red-500 text-white text-left uppercase text-sm leading-normal">
-                                <th class="py-3 px-3 text-left">ID</th>
+                                <th class="py-3 px-3 w-24 text-left">ID</th>
                                 <th class="py-3 px-3 text-left">Name</th>
-                                <th class="py-3 px-8 text-left">Message</th>
-                                <th class="py-3 px-6 text-center">Email</th>
-                                <th class="py-3 px-6 text-center">Phone Number</th>
-                                <th class="py-3 px-6 text-center">Company link</th>
+                                <th class="py-3 px-3 text-left">Message</th>
+                                <th class="py-3 px-3 text-left">Email</th>
+                                <th class="py-3 px-3 text-left">Phone Number</th>
+                                <th class="py-3 px-3 text-left">Company link</th>
+                                <th class="py-3 px-3 text-left">Date</th>
+                                
+
                             </tr>
                         </thead>
-                        <tbody class="text-gray-600 text-sm font-light">
+                        <tbody class="text-gray-600  text-sm font-light">
                             @foreach($emails as $email)
-                                <tr class="border-b border-gray-200 hover:bg-gray-100">
-                                    <td class="py-3 px-6 text-left whitespace-nowrap">
-                                        <span class="font-medium">{{$email->id}}</span>
+                                <tr class="border-b  text-left border-gray-200 hover:bg-gray-100">
+                                    <td class="py-3 px-6 w-24   whitespace-nowrap">
+                                        <span class="font-sm ">{{$email->id}}</span>
                                     </td>
-                                    <td class="py-3 px-6 text-left">
-                                        <span class="font-medium">{{$email->name}}</span>
+                                    <td class="py-3 px-3 w-32 ">
+                                        <span class="font-sm">{{$email->name}}</span>
                                     </td>
-                                    <td class="py-3 px-6 text-center">
-                                        <span class="leading-loose text-md" >{{$email->info}}</span>
+                                    <td class="py-3 px-3 w-96 ">
+                                        <span class="text-md leading-relaxed" >{{$email->info}}</span>
                                     </td>
-                                    <td class="py-3 px-6 text-center">
-                                        <span class="text-lg" >{{$email->email}}</span>
+                                    <td class="py-3 px-3 w-auto ">
+                                        <span class="text-sm " >{{$email->email}}</span>
                                     </td>
-                                    <td class="py-3 px-6 text-center">
-                                        <span class="text-lg" >{{$email->phone}}</span>
+                                    <td class="py-3 px-3 ">
+                                        <span class="text-sm" >{{$email->phone}}</span>
                                     </td>
-                                    <td class="py-3 px-6 text-center">
-                                        <span class="text-lg" >{{$email->link}}</span>
+                                    <td class="py-3 px-3 ">
+                                        <span class="text-sm" >{{$email->link}}</span>
                                     </td>
+                                    <td class="py-3 px-3 ">
+                                        <span class="text-sm" >{{$email->created_at}}</span>
+                                    </td>
+                                    
                                 </tr>
                             @endforeach
-                        </tbody>
+                        </tbody>  
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="bg-gray-200 shadow-none py-3 outline-none">
+        <span>
+            {{$emails->links()}}
+        </span>
+    </div>
     
 
 </body>

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Email;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\DB;
 class EmailController extends Controller
 {
     /**
@@ -14,8 +14,15 @@ class EmailController extends Controller
      */
     public function getDashboardPage()
     {
-        $emails = Email::all();
+        $emails = DB::table('emails')->latest()->paginate(5);
+        
         return view('dashboard',['emails'=>$emails]);
+
+        // Example------------------------------------------
+        //  return view('dashboard',[
+        //      'emails'=>DB::table('emails')->latest()->paginate(4)
+        //     ]);
+        
     }
     public function index()
     {

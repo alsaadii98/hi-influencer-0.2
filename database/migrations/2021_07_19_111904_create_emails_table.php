@@ -13,6 +13,7 @@ class CreateEmailsTable extends Migration
      */
     public function up()
     {
+            
         Schema::create('emails', function (Blueprint $table) {
             $table->id();
             $table->string('name');
@@ -21,6 +22,7 @@ class CreateEmailsTable extends Migration
             $table->string('link')->nullable();
             $table->string('info');
             $table->timestamps();
+            
         });
     }
 
