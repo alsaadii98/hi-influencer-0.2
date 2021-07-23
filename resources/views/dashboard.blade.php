@@ -18,8 +18,8 @@
 
 <body class=" bg-gray-200 fadeIn">
      <!-- NavBar -->
-     <nav class="mt-5 px-2">
-        <div class="lg:max-w-7xl  lg:mx-auto">
+     <nav class="mt-5 px-36">
+        <div class="	 lg:mx-auto">
           <div class="flex items-center justify-between">
               <!-- Logo -->
               <div>
@@ -57,7 +57,7 @@
       </nav>
       <!-- Main -->
       <!-- Section-1 -->
-     <div class="overflow-x-auto">
+     <div class="overflow-x-auto ">
         <div class="min-w-screen min-h-screen bg-gray-200 flex  justify-center bg-gray-100 font-sans overflow-hidden">
             <div class="w-full lg:w-5/6">
                 <div class="bg-white rounded my-6">

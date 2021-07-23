@@ -12469,11 +12469,11 @@ video {
 }
 
 .rounded-2xl {
-  border-radius: 1rem;
+  border-radius: 2.3rem;
 }
 
 .rounded-3xl {
-  border-radius: 1.5rem;
+  border-radius: 4rem;
 }
 
 .rounded-full {

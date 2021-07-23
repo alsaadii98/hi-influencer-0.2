@@ -8,8 +8,8 @@
     
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="style/glide.core.min.css">
-    <link rel="stylesheet" href="style/glide.theme.min.css">
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide.theme.min.css">
     <link rel="icon" href="imgs/LOGO HI Influencers.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,14 +28,14 @@
              </a>   
             </div>
             <!-- Primary nav -->
-            <div class="hidden  md:flex space-x-10 ">
+            <div class="hidden  lg:flex space-x-10 ">
                 <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">Home</a>
                 <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">About us</a>
                 <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">What we do</a>
                 <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">Influencers</a>
             </div>
             <!-- Mobile btn  -->
-            <div class="flex items-center md:hidden">
+            <div class="flex items-center lg:hidden">
                 <button id="Mobile-btn" class="focus:outline-none ">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" style="fill:rgba(211, 82, 82, 1);"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path></svg>
                 </button>
@@ -66,25 +66,25 @@
     <!-- Section-1 -->
     <main class="mt-8 ">
        <div class="lg:max-w-6xl m-5  lg:mx-auto">
-        <div id="MainColor" class=" box-rounded flex flex-col  lg:flex-row justify-between overflow-hidden lg:overflow-visible items-center  shadow-xl ">
+        <div id="MainColor" class=" rounded-3xl flex flex-col  lg:flex-row lg:justify-between justify-center overflow-hidden lg:overflow-visible items-center  shadow-xl ">
             <!-- Info -->
             <div class="  lg:mx-10 my-10 text-center md:text-center lg:text-left">
               <h1 id="fontColor" class="  font-bold py-1 text-4xl lg:text-6xl">
                 Hi Influencer
               </h1>
-              <p class="font-light pb-3 text-xl  lg:text-2xl text-white lg:text-justify">
+              <p class="font-light pb-3 text-md  lg:text-2xl text-white lg:text-justify">
                 Is an Influencers marketing agency, 
                 Specialized <br> in creating social media influencers campaigns .
               </p>
-              <button id="ColorBtn"class="px-14 py-3 rounded-full shadow-md font-medium
+              <button id="ColorBtn"class="px-14 py-3 rounded-full shadow-md 
                 focus:outline-none hover:shadow-xl hover:text-white ease-in text-2xl
                 text-white duration-200">
                 Contact us
               </button>
             </div>
             <!-- illustration -->
-            <div class="mt-3 lg:mt-2 lg:mr-14  overflow-hidden ">
-              <img src="imgs/LOGO HI Influencers Main.svg" class="mt-3" alt="Hi Influencer">
+            <div class="mt-5 mr-5 lg:mt-2 lg:mr-14 items-center overflow-hidden ">
+              <img src="imgs/LOGO HI Influencers Final.svg" alt="Hi Influencer">
             </div>
         </div>
        </div> 
@@ -93,8 +93,44 @@
     <main class="mt-8 ">
       <div class="lg:max-w-6xl m-5  lg:mx-auto">
        <div>
-        <h1 id="fontColor" class="text-center font-bold text-5xl">Our Customers</h1> 
-        <div>
+        <h1 id="fontColor" class="text-center font-bold text-4xl lg:text-5xl">Our Customers</h1> 
+        <div class="mt-8">
+          <div class="flex flex-col md:flex-row justify-center items-center md:space-x-10  space-y-10 lg:space-y-0">
+            {{-- 1 --}}
+            <div class="flex justify-center md:space-x-10 items-center">
+              <div>
+                <img class="w-40 " src="imgs\Our Customers\Mask Group 1.svg" alt="">
+              </div>
+              <div>
+                <img class="w-40" src="imgs\Our Customers\Mask Group 2.svg" alt="">
+              </div>
+            </div>
+            {{-- 2 --}}
+            <div class="flex justify-center md:space-x-10 items-center">
+              <div>
+                <img class="w-40" src="imgs\Our Customers\Mask Group 3.svg" alt="">
+              </div>
+              <div>
+                <img class="w-40" src="imgs\Our Customers\Mask Group 4.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row justify-center items-center md:space-x-10  space-y-10 lg:space-y-0  mt-10">
+            {{-- 1 --}}
+            <div class="flex justify-center md:space-x-10 items-center ">
+              <div>
+                <img class="w-40" src="imgs\Our Customers\Mask Group 5.svg" alt="">
+              </div>
+              <div>
+                <img class="w-40" src="imgs\Our Customers\Mask Group 6.svg" alt="">
+              </div>
+            </div>
+            <div>
+              <img class="w-40" src="imgs\Our Customers\Mask Group 7.svg" alt="">
+            </div>
+          </div>
+          
+          
           
         </div>
        </div>
@@ -103,10 +139,10 @@
     <!-- Section-2 -->
     <main class="mt-8">
       <div class="lg:max-w-6xl m-5  lg:mx-auto">
-        <h1 id="fontColor" class="text-center font-bold text-5xl">Save your time</h1> 
+        <h1 id="fontColor" class="text-center font-bold text-4xl lg:text-5xl">Save your time</h1> 
         <!-- Card 1&2 -->
         <!-- Card-1 -->
-        <div class=" my-5 flex  flex-col lg:flex-row justify-around items-center space-y-5 lg:spcae-y-0 ">
+        <div class=" mt-10 my-5 flex  flex-col lg:flex-row justify-around items-center space-y-5 lg:spcae-y-0 ">
           <!-- text -->
           <div class="lg:w-1/2">
             <h1 id="fontColor" class="  font-medium py-1 text-2xl lg:text-3xl">Campaign strategy</h1>
@@ -118,12 +154,12 @@
             </p>
           </div>
           <!-- icon contianer -->
-          <div id="CardBlue" class="rounded-2xl  overflow-hidden lg:w-96 p-7 shadow-xl"> 
-            <img src="imgs/Card-icon/Brord.svg" class="" alt="">
+          <div id="CardBlue" class="mt-8 lg:mt-0 rounded-2xl  overflow-hidden  lg:w-96  p-5  lg:p-8 shadow-xl"> 
+            <img class="w-80" src="imgs/Card-icon/Brord.svg" class="" alt="">
           </div>
         </div>
         <!-- Card-2 -->
-        <div class=" my-5 flex  flex-col lg:flex-row lg:flex-row-reverse justify-around items-center space-y-5 lg:spcae-y-0 ">
+        <div class=" mt-10 my-5 flex  flex-col lg:flex-row lg:flex-row-reverse justify-around items-center space-y-5 lg:spcae-y-0 ">
           <!-- text -->
           <div class="lg:w-1/2">
             <h1 id="fontColor" class="  font-medium py-1 text-2xl lg:text-3xl">Right influencers</h1>
@@ -134,12 +170,12 @@
             </p>
           </div>
           <!-- icon contianer -->
-          <div id="CardBlue" class="rounded-2xl  flex justify-center  overflow-hidden  lg:w-96 p-7 shadow-xl"> 
-            <img src="imgs/Card-icon/Filtter.svg" class="" alt="">
+          <div id="CardBlue" class="mt-8 lg:mt-0 rounded-2xl  flex justify-center  overflow-hidden  lg:w-96 p-5  lg:p-8  shadow-xl"> 
+            <img class="w-80" src="imgs/Card-icon/Filtter.svg" class="" alt="">
           </div>
         </div>
         <!-- Card-3 -->
-        <div class=" my-5 flex  flex-col lg:flex-row justify-around items-center space-y-5 lg:spcae-y-0 ">
+        <div class="mt-10 my-5 flex  flex-col lg:flex-row justify-around items-center space-y-5 lg:spcae-y-0 ">
           <!-- text -->
           <div class="lg:w-1/2">
             <h1 id="fontColor" class="  font-medium py-1 text-2xl lg:text-3xl">Coordination & Follow-up</h1>
@@ -150,14 +186,14 @@
             </p>
           </div>
           <!-- icon contianer -->
-          <div id="CardBlue" class="rounded-2xl flex justify-center  overflow-hidden lg:w-96 p-7 shadow-xl"> 
-            <img src="imgs/Card-icon/Mesagge.svg" class="" alt="">
+          <div id="CardBlue" class="mt-8 lg:mt-0 rounded-2xl flex justify-center  overflow-hidden lg:w-96 p-5  lg:p-8  shadow-xl"> 
+            <img class="w-80" src="imgs/Card-icon/Mesagge.svg" class="" alt="">
           </div>
         </div>
         <!-- Card-4 -->
-        <div class=" my-5 flex  flex-col lg:flex-row lg:flex-row-reverse justify-around items-center space-y-5 lg:spcae-y-0 ">
+        <div class="mt-10 my-5 flex  flex-col lg:flex-row lg:flex-row-reverse justify-around items-center space-y-5 lg:spcae-y-0 ">
           <!-- text -->
-          <div class="lg:w-1/2">
+          <div class="lg:w-1/2 items-center">
             <h1 id="fontColor" class="  font-medium py-1 text-2xl lg:text-3xl">Detailed reporting</h1>
             <div id="CardRed" class="Card1 w-52 lg:w-64 my-2"></div>
             <p class="font-normal text-lg   lg:text-xl text-justify leading-relaxed tracking-wide	">
@@ -166,8 +202,8 @@
             </p>
           </div>
           <!-- icon contianer -->
-          <div id="CardRed" class="rounded-2xl flex  justify-center  overflow-hidden lg:w-96 p-7 shadow-xl"> 
-            <img src="imgs/Card-icon/REPORT.svg" class="mt-2  " alt="">
+          <div id="CardRed" class="mt-8 lg:mt-0 rounded-2xl flex  justify-center  overflow-hidden lg:w-96 p-5  lg:p-8 shadow-xl"> 
+            <img class="w-80" src="imgs/Card-icon/REPORT.svg" class="  " alt="">
           </div>
         </div>
       </div>
@@ -175,108 +211,149 @@
     <!-- Section-3 -->
     <main class="mt-8">
       <div class="lg:max-w-6xl m-5  lg:mx-auto">
-       <!-- counterNumber --> 
-       <div class="mt-10 ">
-        <h1 id="fontColor" class="text-center font-medium text-3xl">Insights</h1>
-        <p class="text-center font-light text-xl">
-          Here is a few insight about the influencers that we have contact with
-        </p>
+          <div>
+          <h1 id="fontColor" class="text-center font-bold text-5xl">Influencers Content</h1> 
+          {{-- Tabs --}}
+          <div class="tab mt-10 flex justify-center space-x-5 lg:space-x-20">
+            <button class="tablinks text-xl p-2 font-medium  hover:text-red-500 ease-in duration-150 focus:outline-none" onclick="openCity(event, 'Food')">Food</button>
+            <button class="tablinks text-xl p-2 font-medium  hover:text-red-500 ease-in duration-150 focus:outline-none" onclick="openCity(event, 'E-commerce')">E-commerce</button>
+            <button class="tablinks text-xl p-2 font-medium  hover:text-red-500 ease-in duration-150 focus:outline-none" onclick="openCity(event, 'Life-Style')">Life-Style</button>
+          </div>
+          {{-- Content --}}
+            <div class="mt-10 flex flex-col md:flex-row justify-around">
+                {{-- Pics --}}
+                <div class="flex justify-center itmes-center  md:w-1/2  ">
+                  <div id="Food" class="tabcontent block ">
+                    <img class="md:w-4/5 m-0 float-none 	"  src="imgs/Influencers Content/Food.PNG" alt="Food">
+                  </div>
+                  
+                  <div id="E-commerce" class="tabcontent ">
+                    <img class="md:w-4/5 m-0 float-none " src="imgs/Influencers Content/E-commerce.PNG" alt="E-commerce">
+                  </div>
+                  
+                  <div id="Life-Style" class="tabcontent ">
+                    <img class="md:w-4/5 m-0 float-none " src="imgs/Influencers Content/Life-Style.PNG" alt="Life-Style">
+                  </div>
 
-        <div class="mt-10">
-          <!-- circle-blue -->
-          <div class="items-center relative flex justify-center">
-            <div class="relative bottom-48 left-8 lg:bottom-16 lg:left-6">
-              <div
-                id="CirBlue" class="w-12 h-12 absolute bottom-6 left-7 rounded-full"></div>
-              <div id="CirBlue" class="w-16 h-16 rounded-full"></div>
-            </div>
-            <section id="counters" class="grid lg:grid-cols-3 gap-5  p-5 rounded-2xl
-                shadow-xl border-2 border-gray-300 ">
-              <div class="text-center">
-                <div id="counter1" class="text-4xl  p-2 font-light">0</div>
-                <h1 id="fontColor">
-                  Baghdad <br />
-                  Influencers
-                </h1>
-              </div>
-              <div class="text-center">
-                <div id="counter2" class="text-4xl p-2 font-light">0</div>
-                <h1 id="fontColor">Influencers</h1>
-              </div>
-              <div class="text-center">
-                <div id="counter3" class="text-4xl p-2 font-light">0</div>
-                <h1 id="fontColor">
-                  18 to 24 years old <br />
-                  Influencers Age
-                </h1>
-              </div>
-            </section>
-            <!-- circle red -->
-            <div class="relative top-48 right-6 lg:top-16 lg:right-6">
-              <div id="CirRed" class="w-12 h-12 absolute top-6 right-7 rounded-full"></div>
-              <div id="CirRed" class="w-16 h-16 rounded-full"></div>
+                </div>
+                {{-- Para --}}
+                <div class="md:w-1/2 lg:mt-5 ">
+                  <h1 id="fontColor" class="text-3xl lg:text-5xl font-bold leading-snug ">
+                    Good content grabs
+                    your attention. Great
+                    content inspires action.
+                  </h1>
+                  <p class=" mt-2 text-justify text-lg lg:text-xl font-mediem leading-normal"> 
+                      Create great influencer campaigns and content in a fraction of the time it would take you to do it manually. 
+                      Everything under one roof from influencer discovery, workflow, and analytics to amplification and distrbution.
+                  </p>
+                </div>
             </div>
           </div>
-        </div>
-      </div>
-
-
-
       </div>
     </main>
     <!-- Section-4 -->
     <main class="mt-12 ">
       <div class="lg:max-w-6xl m-5  lg:mx-auto">
-        <h1 id="fontColor" class="text-center mb-8 font-medium text-3xl">
+        <h1 id="fontColor" class="text-center mb-10 font-bold text-5xl">
           Influencers We’ve Worked With
         </h1>
+        <p class="mb-10  text-center text-lg lg:text-2xl font-mediem leading-normal">
+          We are able to match your brand with the right influencers,
+         from micro-influencers to macro-influencers on Instagram, here are a few amazing influencers that we’ve worked with.
+        </p>
         <!-- Glider JS -->
-        <div id="CardBlue" class=" shadow-2xl rounded-2xl">
-          <div class="images glide">
-            <div class="glide__track" data-glide-el="track">
-              <ul class="glide__slides">
-                <li class="glide__slide">
-                    <img src="imgs/Influencers/Our-Influencers-Amna.png" alt="Amna">
-                </li>
-                <li class="glide__slide">
-                    <img src="imgs/Influencers/Our-Influencers-Elaf.png" alt="Elaf">
-                </li>
-                <li class="glide__slide">
-                    <img src="imgs/Influencers/Our-Influencers-Hafsa.png" alt="Hafsa">
-                </li>
-                <li class="glide__slide">
-                    <img src="imgs/Influencers/Our-Influencers-Sara.png" alt="Sara">
-                </li>
-                <li class="glide__slide">
-                    <img src="imgs/Influencers/Our-Influencers-Shams.png" alt="Shams">
-                </li>
-                <li class="glide__slide">
-                    <img src="imgs/Influencers/Our-Influencers-Zahraa.png" alt="Zahraa">
-                </li>
-              </ul>
-            </div>  
+        <div id="CardBlue" class=" shadow-2xl p-2 rounded-2xl">
+          
+            {{-- Slider --}}
+            <div class="images glide ">
+              <div class="glide__track " data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <img src="imgs/infuencer-pics/Amna.png" alt="Amna" />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="imgs/infuencer-pics/Ealaf.png" alt="Elaf" />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="imgs/infuencer-pics/Hala.png" alt="Hala" />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="imgs/infuencer-pics/Heba.png" alt="Heba" />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="imgs/infuencer-pics/Hussein.png" alt="Hussein" />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="imgs/infuencer-pics/Sara.png" alt="Sara" />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="imgs/infuencer-pics/Shams.png"alt="Shams" />
+                  </li>
+                  <li class="glide__slide">
+                    <img src="imgs/infuencer-pics/Zahraa.png" alt="Zahraa" />
+                  </li>
+                </ul>
+              </div>
+              <div class="nav glide">
+                <div class="glide__arrows" data-glide-el="controls">
+                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                    <svg
+                      class="focus:outline-none "
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="75"
+                      height="75"
+                      
+                      viewBox="0 0 24 24"
+                      style="fill: rgba(211, 82, 82, 1)"
+                    >
+                      <path
+                        d="M13.293 6.293L7.586 12 13.293 17.707 14.707 16.293 10.414 12 14.707 7.707z"
+                      ></path>
+                    </svg>
+                  </button>
+                  <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                    <button class="glide__bullet" data-glide-dir="=3"></button>
+                    <button class="glide__bullet" data-glide-dir="=4"></button>
+                    <button class="glide__bullet" data-glide-dir="=5"></button>
+                  </div>
+                 
+                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="75"
+                      height="75"
+                      
+                      viewBox="0 0 24 24"
+                      style="fill: rgba(211, 82, 82, 1); "
+                    >
+                      <path
+                        d="M10.707 17.707L16.414 12 10.707 6.293 9.293 7.707 13.586 12 9.293 16.293z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                
+              </div>
+            </div>
+             {{-- end-slider --}}
           </div>
-        </div>
+        
       </div>
     </main>
     <!-- Section-5 -->
     <main class="mt-12">
       <div class="lg:max-w-3xl m-5  lg:mx-auto">
         <!-- About us -->
-        <div class=" text-center">
-          <h1 id="fontColor" class="font-medium text-2xl lg:text-4xl">
-            About Hi Influencer
-          </h1>
-          <p class="font-light lg:text-xl mt-2">
-            Hi Influencer is an Influencers marketing agency<br> at Hi Influencer
-            we connect brands with small social media influencers<br> and we
-            specialized in creating social media influencers campaigns.
-          </p>
-        </div>
-        <div id="MainColor" class="text-white shadow-2xl p-7 rounded-2xl mt-8">
-          <h1 class="text-2xl lg:text-5xl  text-center">Feel free to contact us</h1>
+       
+        <div id="counters" class="text-white shadow-2xl p-12 rounded-2xl mt-8">
+          <h1 id="fontColor" class="text-2xl lg:text-4xl  text-center">Want to start an influencers campaign?
+            Feel free to contact us</h1>
           <div class="mt-5 flex justify-center">
-            <button id="ColorBtn"class="px-8 lg:px-14 py-4 rounded-tl-3xl rounded-br-3xl shadow-md font-light
+            <button id="ColorBtn"class="px-8 lg:px-14 py-4 rounded-full shadow-md 
             focus:outline-none hover:shadow-xl hover:text-white ease-in text-2xl
             text-white duration-200">
             Contact us
@@ -354,8 +431,8 @@
         </div>
       </footer>
       <script src="js/app.js"></script>
-    <script src="main.js"></script>
-    <script src="glide.min.js"></script>
-    <script src="gilde.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/glide.min.js"></script>
+    <script src="js/gilde.js"></script>
   </body>
 </html>

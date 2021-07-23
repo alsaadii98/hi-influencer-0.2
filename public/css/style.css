@@ -49,12 +49,8 @@ body {
     );
   }
   #CirRed {
-    background: rgb(212, 82, 82);
-    background: linear-gradient(
-      250deg,
-      rgba(212, 82, 82, 1) 0%,
-      rgb(241, 163, 163) 95%
-    );
+    background: rgb(241,148,148);
+    background: linear-gradient(166deg, rgba(241,148,148,1) 0%, rgba(212,82,82,1) 100%);
   }
   #CirBlue {
     background: rgb(116, 127, 170);
@@ -74,7 +70,7 @@ body {
   }
   .Card1 {
     height: 0.15rem;
-    
+  
   }
   .Card2 {
     height: 0.15rem;
@@ -89,15 +85,10 @@ body {
     
   }
   /* //////////////////////////////////////// */
-  .glide__slide img {
-    width: 100%;
-    padding: 1.5rem;
-  }
-  
   @media screen and (max-width: 1024px) {
     .glide__slide img {
       width: 100%;
-      padding: 2.8rem;
+      padding: 2rem;
     }
   }
   @media screen and (max-width: 600px) {
@@ -109,8 +100,17 @@ body {
   @media screen and (max-width: 400px) {
     .glide__slide img {
       width: 100%;
-      padding: 2.5rem;
+      padding: 3rem;
     }
+  }
+  .images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .glide__slide img {
+    width: 100%;
+    padding: 1rem;
   }
   .glide__slide {
     filter: blur(10xp);
@@ -120,15 +120,40 @@ body {
   .glide__slide--active {
     opacity: 1;
     filter: none;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.02, 1.02);
   }
   .glide__slides {
     overflow: visible;
   }
+  
   .nav {
-    display: inline;
+    position: relative;
+    padding: 2rem;
     align-items: center;
   }
+  
+  .glide__bullet {
+    width: 0.7rem;
+    margin: 0 6px;
+    height: 0.7rem;
+    transition: all 0.6s ease-in-out;
+  }
+  .glide__bullet--active {
+    transform: scale(1.5, 1.5);
+  }
+  .glide__arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .glide__arrow {
+    border: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+  }  
+  
+  
   /* /////////////////////////////////////// */
   /* Animation */
   
@@ -186,4 +211,38 @@ body {
       transform: translateY(0);
     }
   }
-  
+  /* Style the tab */
+.tab {
+  /* overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1; */
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  /* background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s; */
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  /* background-color: #ddd; */
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  /* background-color: #ccc; */
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  /* padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none; */
+}
