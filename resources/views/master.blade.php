@@ -50,10 +50,10 @@
         <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">What we do</a>
         <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">Influencers</a>
         <div class="flex items-center justify-center space-x-5 p-5">
-            <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+            <a href="http://www.instagram.com/hiinfluencer.iq">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " ;transform: ;msFilter:;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
             </a>
-         <a href="#">
+         <a href="https://www.facebook.com/hiinfluencer.iq/">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
          </a> 
          <a href="#">
@@ -147,7 +147,7 @@
           <div class="lg:w-1/2">
             <h1 id="fontColor" class="  font-medium py-1 text-2xl lg:text-3xl">Campaign strategy</h1>
             <div id="CardRed" class="Card1 w-52 lg:w-64 my-2"></div>
-            <p class="font-normal text-lg   lg:text-xl text-justify leading-relaxed tracking-wide	">
+            <p class="font-normal text-lg   lg:text-xl text-justify leading-loss tracking-wide	">
               The first and the main step that we start working on it, it’s the campaign strategy, 
               where we focus on telling a story that lives in people’s minds after the campaign is over. 
               We do that by infusing your core messages into all aspects of the campaigns we create.
@@ -175,18 +175,18 @@
           </div>
         </div>
         <!-- Card-3 -->
-        <div class="mt-10 my-5 flex  flex-col lg:flex-row justify-around items-center space-y-5 lg:spcae-y-0 ">
+        <div class=" mt-10 my-5 flex  flex-col lg:flex-row justify-around items-center space-y-5 lg:spcae-y-0 ">
           <!-- text -->
           <div class="lg:w-1/2">
             <h1 id="fontColor" class="  font-medium py-1 text-2xl lg:text-3xl">Coordination & Follow-up</h1>
-            <div id="CardRed" class="Card1 w-96 my-2"></div>
-            <p class="font-normal text-lg  lg:text-xl text-justify leading-relaxed tracking-wide	">
-              If you’ve gone the DIY route, you know that this process is the most time-consuming. At Hi Influencer when our time spent is your time gained, so we’ll handle all the 
-              behind-the-scenes tasks, from price negotiations to compliance and payment. In between, we’ll handle all the coordination of content deliverables with them, keeping your campaign on-time and on-budget.z
+            <div id="CardRed" class="Card1 w-80 lg:w-64 my-2"></div>
+            <p class="font-normal text-lg   lg:text-xl text-justify leading-relaxed tracking-wide	">
+              If you’ve gone the DIY route, you know that this process is the most time-consuming. At Hi Influencer when our time spent is your time gained, so we’ll handle all the behind-the-scenes tasks, from price negotiations to compliance and payment. In between, 
+              we’ll handle all the coordination of content deliverables with them, keeping your campaign on-time and on-budget.z
             </p>
           </div>
           <!-- icon contianer -->
-          <div id="CardBlue" class="mt-8 lg:mt-0 rounded-2xl flex justify-center  overflow-hidden lg:w-96 p-5  lg:p-8  shadow-xl"> 
+          <div id="CardBlue" class="mt-8 lg:mt-0 rounded-2xl  flex justify-center  overflow-hidden  lg:w-96 p-5  lg:p-8  shadow-xl"> 
             <img class="w-80" src="imgs/Card-icon/Mesagge.svg" class="" alt="">
           </div>
         </div>
@@ -270,28 +270,31 @@
               <div class="glide__track " data-glide-el="track">
                 <ul class="glide__slides">
                   <li class="glide__slide">
-                    <img src="imgs/infuencer-pics/Amna.png" alt="Amna" />
+                    <a target="_blank" href="https://www.instagram.com/xamnazx/"><img src="imgs/infuencer-pics/Amna.png" alt="Amna" /></a>
                   </li>
                   <li class="glide__slide">
-                    <img src="imgs/infuencer-pics/Ealaf.png" alt="Elaf" />
+                    <a target="_blank" href="https://www.instagram.com/theealafkhalaf_official/"><img src="imgs/infuencer-pics/Ealaf.png" alt="Elaf" /></a>
                   </li>
                   <li class="glide__slide">
-                    <img src="imgs/infuencer-pics/Hala.png" alt="Hala" />
+                    <a target="_blank" href="https://www.instagram.com/halahzaher/"><img src="imgs/infuencer-pics/Hala.png" alt="Hala" /></a>
                   </li>
                   <li class="glide__slide">
-                    <img src="imgs/infuencer-pics/Heba.png" alt="Heba" />
+                    <a target="_blank" href="https://www.instagram.com/hebabahaa_14/"><img src="imgs/infuencer-pics/Heba.png" alt="Heba" /></a>
                   </li>
                   <li class="glide__slide">
-                    <img src="imgs/infuencer-pics/Hussein.png" alt="Hussein" />
+                    <a target="_blank" href="https://www.instagram.com/amshawi/"><img src="imgs/infuencer-pics/Hussein.png" alt="Hussein" /></a>
                   </li>
                   <li class="glide__slide">
-                    <img src="imgs/infuencer-pics/Sara.png" alt="Sara" />
+                    <a target="_blank" href="https://www.instagram.com/sarah.yousif96/"><img src="imgs/infuencer-pics/Sara.png" alt="Sara" /></a>
                   </li>
                   <li class="glide__slide">
-                    <img src="imgs/infuencer-pics/Shams.png"alt="Shams" />
+                    <a target="_blank" href="https://www.instagram.com/shamsalghadeer/"><img src="imgs/infuencer-pics/Shams.png"alt="Shams" /></a>
                   </li>
                   <li class="glide__slide">
-                    <img src="imgs/infuencer-pics/Zahraa.png" alt="Zahraa" />
+                    <a target="_blank" href="https://www.instagram.com/days.zahraa/"><img src="imgs/infuencer-pics/Zahraa.png" alt="Zahraa" /></a>
+                  </li>
+                  <li class="glide__slide">
+                    <a target="_blank" href="https://www.instagram.com/ali_jamal_9/"><img src="imgs/infuencer-pics/Ali.png" alt="Ali" /></a>
                   </li>
                 </ul>
               </div>
@@ -363,8 +366,17 @@
       </div>
     </main>
       <!-- Footer  -->
-      <footer class="mt-12">
-        <div id="MainColor" class="mx-auto rounded-tr-3xl rounded-tl-3xl shadow-2xl  lg:flex justify-center lg:space-x-10 items-center text-white">
+      <footer class="mt-24 relative">
+        <div id="footerColor"  class="flex justify-center mx-auto absolute inset-x-0 lg:bottom-24 md:bottom-80 bottom-96  w-28 h-28 rounded-full ">
+          <button>
+            <a href="">
+              <img  src="imgs/LOGO HI Influencers White.svg" class="w-10 animate-bounce " alt="Hi-Influncer">
+            </a>
+          </button>
+          
+        </div>
+
+        <div id="footerColor" class="mx-auto rounded-tr-3xl rounded-tl-3xl shadow-2xl  lg:flex justify-center lg:space-x-10 items-center text-white">
           <div class="flex flex-col justify-evenly ">
           <!-- Contact -->
           <div class="lg:flex  items-center space-y-5 lg:space-y-0  lg:space-x-10  p-5">
@@ -381,31 +393,19 @@
                 / Alsinaa street / National foundation for computers / Fourth
                 floor</h2>
             </div>
-          </div>
-          <!-- Social Accounts -->  
-          <div class="flex p-5 space-x-5 items-center">
+             <!-- Social Accounts -->  
+          <div class="flex flex-col justify-start items-start lg:p-5 space-y-3  ">
             <h1 class="lg:text-2xl text-xl font-light">Social Accounts</h1>
             <!-- Icon -->
-            <div class="flex items-center">
+            <div class="flex space-x-5 items-center">
               <!-- Instagram -->
-              <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-10" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1); ">
-                  <path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,
-                  15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path>
-                  <circle cx="16.806" cy="7.207" r="1.078"></circle>
-                  <path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,
-                  6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469
-                  ,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,
-                  2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311
-                  ,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,
-                  0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,
-                  0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,
-                  0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path>
-                </svg>
+              <a href="http://www.instagram.com/hiinfluencer.iq">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"class="w-10 fill-current text-white hover:text-red-500 duration-150 ease-in  " ;transform: ;msFilter:;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
+
               </a>
               <!-- Facebook -->
-              <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-10" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);">
+              <a href="https://www.facebook.com/hiinfluencer.iq/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 fill-current text-white hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24" ">
                   <path
                     d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,
                     0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path>
@@ -413,7 +413,7 @@
               </a>
               <!-- Linkedn -->
               <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-10" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1); ">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 fill-current text-white hover:text-red-500 duration-150 ease-in" viewBox="0 0 24 24"  ">
                   <path
                     d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667 v-8.59h2.672V18.337z M7.003,8.574c-0.856
                     ,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548 S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39
@@ -422,11 +422,10 @@
               </a>
             </div>
           </div>
+          </div>
+         
         </div>
-        <div class="flex justify-center">
-          <img src="imgs/LOGO HI Influencers White.svg" class="lg:w-20 w-14" alt="Hi-Influncer">
-        </div>
-
+        
 
         </div>
       </footer>

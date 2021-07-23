@@ -18,3 +18,10 @@ function openCity(evt, category) {
     document.getElementById(category).style.display = "block";
     evt.currentTarget.className += " active";
   }
+// Nav bar
+const mobileBtn = document.querySelector("#Mobile-btn");
+const mobileMenu = document.querySelector("#Mobile-menu");
+
+mobileBtn.addEventListener("click",()=>{
+  mobileMenu.classList.toggle("hidden");
+});

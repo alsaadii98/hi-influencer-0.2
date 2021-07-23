@@ -12,6 +12,9 @@ body {
   #fontColor {
     color: #d45252;
   }
+  #footerColor{
+    background-color: #282f48;
+  }
   #bg-color-main{
     background-color: #d45252;
   }
