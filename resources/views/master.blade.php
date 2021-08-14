@@ -20,54 +20,57 @@
   
 
     <!-- NavBar -->
-    <nav class="mt-5 px-2">
-      <div class="lg:max-w-6xl m-3  lg:mx-auto">
-        <div class="flex items-center justify-between">
-            <!-- Logo -->
-            <div>
-             <a href="#" class="flex items-center space-x-3">
-                 <img src="imgs/LOGO HI Influencers.svg" class="w-8" alt="Hi influencer">
-                 <span class="font-bold text-xl lg:text-2xl " >Hi Influencer</span>
-             </a>   
-            </div>
-            <!-- Primary nav -->
-            <div class="hidden  lg:flex space-x-10 ">
-                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">Home</a>
-                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">About us</a>
-                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">What we do</a>
-                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">Influencers</a>
-            </div>
-            <!-- Mobile btn  -->
-            <div class="flex items-center lg:hidden">
-                <button id="Mobile-btn" class="focus:outline-none ">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" style="fill:rgba(211, 82, 82, 1);"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path></svg>
-                </button>
-            </div>
+    <div id="topPage">
+      <nav class="mt-5 px-2">
+        <div class="lg:max-w-6xl m-3  lg:mx-auto">
+          <div class="flex items-center justify-between">
+              <!-- Logo -->
+              <div>
+              <a href="#" class="flex items-center space-x-3">
+                  <img src="imgs/LOGO HI Influencers.svg" class="w-8" alt="Hi influencer">
+                  <span class="font-bold text-xl lg:text-2xl " >Hi Influencer</span>
+              </a>   
+              </div>
+              <!-- Primary nav -->
+              <div class="hidden  lg:flex space-x-10 ">
+                  <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#home">Home</a>
+                  <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#">About us</a>
+                  <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#whatWedo">What we do</a>
+                  <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#Influencers">Influencers</a>
+              </div>
+              <!-- Mobile btn  -->
+              <div class="flex items-center lg:hidden">
+                  <button id="Mobile-btn" class="focus:outline-none ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" style="fill:rgba(211, 82, 82, 1);"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path></svg>
+                  </button>
+              </div>
 
+          </div>
         </div>
-      </div>
-      <!-- Mobile menu  -->
-      <div id="Mobile-menu" class="mt-2 bg-gray-300 rounded-xl md:hidden hidden ">
-        <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">Home</a>
-        <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">About us</a>
-        <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">What we do</a>
-        <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">Influencers</a>
-        <div class="flex items-center justify-center space-x-5 p-5">
-          {{-- class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " --}}
-            <a href="http://www.instagram.com/hiinfluencer.iq">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24" ;transform: ;msFilter:;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
-            </a>
-         <a href="https://www.facebook.com/hiinfluencer.iq/">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
-         </a> 
-         <a href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667 v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548 S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248 h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z"></path></svg>
-         </a>  
-      </div>
-    
-    </nav>
+        <!-- Mobile menu  -->
+        <div id="Mobile-menu" class="mt-2 bg-gray-300 rounded-xl md:hidden hidden ">
+          <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">Home</a>
+          <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">About us</a>
+          <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">What we do</a>
+          <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#">Influencers</a>
+          <div class="flex items-center justify-center space-x-5 p-5">
+            {{-- class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " --}}
+              <a href="http://www.instagram.com/hiinfluencer.iq">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24" ;transform: ;msFilter:;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
+              </a>
+          <a href="https://www.facebook.com/hiinfluencer.iq/">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+          </a> 
+          <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10  fill-current text-gray-800 hover:text-red-500 duration-150 ease-in  " viewBox="0 0 24 24"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667 v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548 S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248 h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z"></path></svg>
+          </a>  
+        </div>
+      
+      </nav>
+    </div>
     <!-- Main -->
     <!-- Section-1 -->
+    <div id="home">
     <main class="lg:mt-10 mt-5  ">
        <div class="lg:max-w-6xl m-5  lg:mx-auto">
         <div id="MainColor" class=" rounded-3xl   flex flex-col  lg:flex-row lg:justify-between justify-center overflow-hidden lg:overflow-visible items-center  shadow-xl ">
@@ -93,30 +96,44 @@
         </div>
        </div> 
     </main>
+    </div>
     <!-- Section-2 -->
-    <main class="mt-10 lg:mt-32  hidden ">
+    <main class="mt-10 lg:mt-20 ">
       <div class="lg:max-w-6xl m-5  lg:mx-auto">
         <div>
           <h1 id="fontColor" class="text-center font-bold text-4xl lg:text-5xl">Our Customers</h1> 
-          <div class="mt-8">
-            
-            <div>
-              <div class="flex ">
-                <img src="imgs\Our Customers\Mask Group 1.svg" alt="">
-                <img src="imgs\Our Customers\Mask Group 2.svg" alt="">
-                <img src="imgs\Our Customers\Mask Group 3.svg" alt="">
-                <img src="imgs\Our Customers\Mask Group 4.svg" alt="">
+          <div class="lg:mt-20 mt-10 mx-24">
+            <!-- logos -->
+            <div class="flex flex-col md:space-y-20 space-y-5 items-center ">
+              <div class="flex justify-center md:space-x-10 space-x-0 space-y-10 lg:space-y-0  flex-col md:flex-row ">
+                <div class="flex justify-center items-center">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 1.svg" alt="">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 2.svg" alt="">
+                </div>
+                <div class="flex justify-center items-center ">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 3.svg" alt="">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 4.svg" alt="">
+                </div>
+                <div class="md:flex hidden justify-center items-center">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 5.svg" alt="">
+                </div>
               </div>
-              <div class="flex justify-center">
-                <img src="imgs\Our Customers\Mask Group 5.svg" alt="">
-                <img src="imgs\Our Customers\Mask Group 6.svg" alt="">
-                <img src="imgs\Our Customers\Mask Group 7.svg" alt="">
+              <div class="flex justify-center flex-col md:flex-row">
+                
+                <div class="flex justify-center space-y-10 lg:space-y-0  items-center">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 6.svg" alt="">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 7.svg" alt="">
+                </div>
+                <div class="flex justify-center items-center">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 8.svg" alt="">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 9.svg" alt="">
+                </div>
+                <div class="flex md:hidden justify-center items-center mt-3 lg:mt-0">
+                  <img class="w-52" src="imgs\Our Customers\Mask Group 5.svg" alt="">
+                </div>
                 
               </div>
-              <div class="flex justify-center ">
-                <img src="imgs\Our Customers\Mask Group 8.svg" alt="">
-                <img src="imgs\Our Customers\Mask Group 9.svg" alt="">
-              </div>
+             
               
             </div>            
 
@@ -125,7 +142,8 @@
       </div>
    </main>
     <!-- Section-3 -->
-    <main class="mt-10 lg:mt-32">
+    <div id="whatWedo">
+    <main class="mt-10 lg:mt-20">
       <div class="lg:max-w-6xl m-5  lg:mx-auto">
         <h1 id="fontColor" class="text-center font-bold text-4xl lg:text-5xl">Save your time</h1> 
         <p class=" mt-5 text-center text-lg lg:text-2xl leading-loose tracking-wide	">
@@ -211,8 +229,9 @@
         </div>
       </div>
     </main>
+    </div>
     <!-- Section-4 -->
-    <main class="mt-10 lg:mt-32">
+    <main class="mt-10 lg:mt-20">
       <div class="lg:max-w-6xl m-5   lg:mx-auto">
           <div>
           <h1 id="fontColor" class="text-center font-bold text-5xl">Influencers Content</h1> 
@@ -258,114 +277,118 @@
       </div>
     </main>
     <!-- Section-5 -->
-    <main class="mt-10 lg:mt-32 ">
-      <div class="lg:max-w-6xl m-5  lg:mx-auto">
-        <h1 id="fontColor" class="text-center  font-bold text-5xl">
-          Influencers We’ve Worked With
-        </h1>
-        <p class="mb-10 mt-5 mx-3 text-center text-lg lg:text-2xl font-mediem leading-normal">
-          We are able to match your brand with the right influencers, from
-          small influencers categories to the bigger categories, here are a few
-          amazing influencers that we’ve worked with.
-        </p>
-        <!-- Glider JS -->
-        <div id="CardBlue" class=" shadow-2xl p-2 rounded-2xl">
-          
-            {{-- Slider --}}
-            <div class="images glide ">
-              <div class="glide__track " data-glide-el="track">
-                <ul class="glide__slides">
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/xamnazx/"><img src="imgs/infuencer-pics/Amna.png" alt="Amna" /></a>
-                  </li>
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/theealafkhalaf_official/"><img src="imgs/infuencer-pics/Ealaf.png" alt="Elaf" /></a>
-                  </li>
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/halahzaher/"><img src="imgs/infuencer-pics/Hala.png" alt="Hala" /></a>
-                  </li>
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/hebabahaa_14/"><img src="imgs/infuencer-pics/Heba.png" alt="Heba" /></a>
-                  </li>
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/amshawi/"><img src="imgs/infuencer-pics/Hussein.png" alt="Hussein" /></a>
-                  </li>
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/sarah.yousif96/"><img src="imgs/infuencer-pics/Sara.png" alt="Sara" /></a>
-                  </li>
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/shamsalghadeer/"><img src="imgs/infuencer-pics/Shams.png"alt="Shams" /></a>
-                  </li>
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/days.zahraa/"><img src="imgs/infuencer-pics/Zahraa.png" alt="Zahraa" /></a>
-                  </li>
-                  <li class="glide__slide">
-                    <a target="_blank" href="https://www.instagram.com/ali_jamal_9/"><img src="imgs/infuencer-pics/Ali.png" alt="Ali" /></a>
-                  </li>
-                </ul>
-              </div>
-              <div class="nav glide">
-                <div class="glide__arrows" data-glide-el="controls">
-                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                    <svg
-                      class="focus:outline-none "
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="75"
-                      height="75"
-                      
-                      viewBox="0 0 24 24"
-                      style="fill: rgba(211, 82, 82, 1)"
-                    >
-                      <path
-                        d="M13.293 6.293L7.586 12 13.293 17.707 14.707 16.293 10.414 12 14.707 7.707z"
-                      ></path>
-                    </svg>
-                  </button>
-                  <div class="glide__bullets" data-glide-el="controls[nav]">
-                    <button class="glide__bullet" data-glide-dir="=0"></button>
-                    <button class="glide__bullet" data-glide-dir="=1"></button>
-                    <button class="glide__bullet" data-glide-dir="=2"></button>
-                    <button class="glide__bullet" data-glide-dir="=3"></button>
-                    <button class="glide__bullet" data-glide-dir="=4"></button>
-                    <button class="glide__bullet" data-glide-dir="=5"></button>
-                  </div>
-                 
-                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="75"
-                      height="75"
-                      
-                      viewBox="0 0 24 24"
-                      style="fill: rgba(211, 82, 82, 1); "
-                    >
-                      <path
-                        d="M10.707 17.707L16.414 12 10.707 6.293 9.293 7.707 13.586 12 9.293 16.293z"
-                      ></path>
-                    </svg>
-                  </button>
+    <div id="Influencers">
+      <main class="mt-10 lg:mt-20 ">
+        <div class="lg:max-w-6xl m-5  lg:mx-auto">
+          <h1 id="fontColor" class="text-center  font-bold text-5xl">
+            Influencers We’ve Worked With
+          </h1>
+          <p class="mb-10 mt-5 mx-3 text-center text-lg lg:text-2xl font-mediem leading-normal">
+            We are able to match your brand with the right influencers, from
+            small influencers categories to the bigger categories, here are a few
+            amazing influencers that we’ve worked with.
+          </p>
+          <!-- Glider JS -->
+          <div id="CardBlue" class=" shadow-2xl p-2 rounded-2xl">
+            
+              {{-- Slider --}}
+              <div class="images glide ">
+                <div class="glide__track " data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/xamnazx/"><img src="imgs/infuencer-pics/Amna.png" alt="Amna" /></a>
+                    </li>
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/theealafkhalaf_official/"><img src="imgs/infuencer-pics/Ealaf.png" alt="Elaf" /></a>
+                    </li>
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/halahzaher/"><img src="imgs/infuencer-pics/Hala.png" alt="Hala" /></a>
+                    </li>
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/hebabahaa_14/"><img src="imgs/infuencer-pics/Heba.png" alt="Heba" /></a>
+                    </li>
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/amshawi/"><img src="imgs/infuencer-pics/Hussein.png" alt="Hussein" /></a>
+                    </li>
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/sarah.yousif96/"><img src="imgs/infuencer-pics/Sara.png" alt="Sara" /></a>
+                    </li>
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/shamsalghadeer/"><img src="imgs/infuencer-pics/Shams.png"alt="Shams" /></a>
+                    </li>
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/days.zahraa/"><img src="imgs/infuencer-pics/Zahraa.png" alt="Zahraa" /></a>
+                    </li>
+                    <li class="glide__slide">
+                      <a target="_blank" href="https://www.instagram.com/ali_jamal_9/"><img src="imgs/infuencer-pics/Ali.png" alt="Ali" /></a>
+                    </li>
+                  </ul>
                 </div>
-                
+                <div class="nav glide">
+                  <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                      <svg
+                        class="focus:outline-none "
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="75"
+                        height="75"
+                        
+                        viewBox="0 0 24 24"
+                        style="fill: rgba(211, 82, 82, 1)"
+                      >
+                        <path
+                          d="M13.293 6.293L7.586 12 13.293 17.707 14.707 16.293 10.414 12 14.707 7.707z"
+                        ></path>
+                      </svg>
+                    </button>
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                      <button class="glide__bullet" data-glide-dir="=0"></button>
+                      <button class="glide__bullet" data-glide-dir="=1"></button>
+                      <button class="glide__bullet" data-glide-dir="=2"></button>
+                      <button class="glide__bullet" data-glide-dir="=3"></button>
+                      <button class="glide__bullet" data-glide-dir="=4"></button>
+                      <button class="glide__bullet" data-glide-dir="=5"></button>
+                    </div>
+                  
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="75"
+                        height="75"
+                        
+                        viewBox="0 0 24 24"
+                        style="fill: rgba(211, 82, 82, 1); "
+                      >
+                        <path
+                          d="M10.707 17.707L16.414 12 10.707 6.293 9.293 7.707 13.586 12 9.293 16.293z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                  
+                </div>
               </div>
+              {{-- end-slider --}}
             </div>
-             {{-- end-slider --}}
-          </div>
-        
-      </div>
-    </main>
+          
+        </div>
+      </main>
+    </div>
     <!-- Section-6 -->
     <main class="mt-10 lg:mt-32">
       <div class="lg:max-w-3xl m-5  lg:mx-auto">
         <!-- About us -->
        
         <div id="counters" class="text-white shadow-2xl p-12 rounded-2xl mt-8">
-          <h1 id="fontColor" class="text-2xl lg:text-4xl  text-center">Want to start an influencers campaign?
-            Feel free to contact us</h1>
+          <h1 id="fontColor" class="text-2xl lg:text-4xl  text-center">
+            Ready to create your influencers campaign?
+            Contact us now
+          </h1>
           <div class="mt-5 flex justify-center">
             <button id="ColorBtn"class="px-8 lg:px-14 py-4 rounded-full shadow-md 
             focus:outline-none hover:shadow-xl hover:text-white ease-in text-2xl
             text-white duration-200">
-            Contact us
+            Let’s Talk 
           </button>
         </div>
         </div>
@@ -375,7 +398,7 @@
       <footer class="mt-24 relative">
         <div id="footerColor"  class="flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
           <button>
-            <a href="">
+            <a href="#topPage">
               <img  src="imgs/LOGO HI Influencers White.svg" class="w-10 animate-bounce " alt="Hi-Influncer">
             </a>
           </button>

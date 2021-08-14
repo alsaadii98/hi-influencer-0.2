@@ -8,8 +8,7 @@
   <title>Hi Influencer</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="style/glide.core.min.css">
-  <link rel="stylesheet" href="style/glide.theme.min.css">
+  
   <link rel="icon" href="imgs/LOGO HI Influencers.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
@@ -17,6 +16,7 @@
 
 <body class="bg-gray-200 fadeIn ">
   <!-- NavBar -->
+  <div id="topPage">
   <nav class="mt-5 px-2">
       <div class="lg:max-w-6xl m-3  lg:mx-auto">
         <div class="flex items-center justify-between">
@@ -62,15 +62,16 @@
          </a>  
       </div>
     
-    </nav>
+  </nav>
+  </div>
   <!-- Main -->
   <!-- Section-1 -->
-  <main class="mt-8 ">
+  <main class="mt-10 lg:mt-20">
     <div class="lg:max-w-6xl m-5  lg:mx-auto">
       <div id="MainColor"
         class="rounded-3xl flex flex-col  lg:flex-row justify-between overflow-hidden lg:overflow-visible items-center  shadow-xl ">
         <!-- Info -->
-        <div class="  lg:mx-10 my-10 text-center md:text-center lg:text-left">
+        <div class=" w-1/2  lg:mx-10 my-10 text-center md:text-center lg:text-left">
         <h1 id="fontColor" class="  font-bold py-1 text-4xl lg:text-6xl">
         Got a question?
         </h1>
@@ -80,113 +81,113 @@
 
         </div>
         <!-- illustration -->
-        <div class="lg:mt-10 mt-3 ml-14 overflow-hidden">
+        <div class="lg:mt-10 w-1/2 mt-3 ml-14 overflow-hidden">
           <img src="imgs\Card-icon\Artboard 1.svg" class="w-screen" alt="Hi Influencer">
         </div>
       </div>
     </div>
   </main>
   <!-- Section-2 -->
-  <main class="mt-8">
+  <main class="mt-10 lg:mt-20">
     <div class="lg:max-w-6xl m-5  lg:mx-auto">
     <h1 id="fontColor" class="text-center font-bold text-4xl lg:text-5xl">Let's Get In Touch</h1> 
     <p class=" mt-5 text-center text-lg lg:text-2xl leading-loose tracking-wide	">
     Submit the form below, tell us a bit more about your business, and we’ll be in touch shortly
     </p>
-  <div class="relative mt-20 mx-auto">
-    <div class=" bg-white flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
-          <button>
-            <a href="">
-              <img  src="imgs/LOGO HI Influencers.svg" class="w-10" alt="Hi-Influncer">
-            </a>
-          </button>
-          
-        </div>
-        
-      <!--Form-->
-      <form action="/contact" method="POST">
-      @csrf
-      <div class=" bg-white rounded-2xl shadow-xl lg:p-16 p-10   mt-5 flex flex-col justify-center">
-        
-        <div class="md:grid grid-cols-2 md:space-x-10  ">
-          <div class="flex flex-col" action="">
-            <label class="block pb-2 text-lg text-red-600 " for="Name">Name *</label>
-            <input name="name" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 " type="text"
-              placeholder="Enter your name">
-              @if($errors->has("name"))
+    <div class="relative mt-20 mx-auto">
+      <div class=" bg-white flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
+            <button>
+              <a href="">
+                <img  src="imgs/LOGO HI Influencers.svg" class="w-10" alt="Hi-Influncer">
+              </a>
+            </button>
             
-
-              {{$errors->first("name")}}
-           
-               @endif
-          </div>
-          <div class="flex flex-col" action="">
-            <label class="block pb-2 text-lg text-red-600 " for="Email">Email Address *</label>
-            <input name="email" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text"
-              placeholder="Enter your Email">
-              @if($errors->has("email"))
-            
-
-              {{$errors->first("email")}}
-           
-          @endif
           </div>
           
-        </div>
-        <div class="md:grid grid-cols-2 md:space-x-10 ">
-          <div class="flex flex-col" action="">
-            <label class="block pb-2 text-lg text-red-600 " for="Name">Phone Number *</label>
-            <input name="phone" placeholder="Enter you Phone Number" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text">
-            @if($errors->has("phone"))
-            
+        <!--Form-->
+        <form action="/contact" method="POST">
+        @csrf
+        <div class=" bg-white rounded-2xl shadow-xl lg:p-16 p-10   mt-5 flex flex-col justify-center">
+          
+          <div class="md:grid grid-cols-2 md:space-x-10  ">
+            <div class="flex flex-col" action="">
+              <label class="block pb-2 text-lg text-red-600 " for="Name">Name *</label>
+              <input name="name" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 " type="text"
+                placeholder="Enter your name">
+                @if($errors->has("name"))
+              
 
-              {{$errors->first("phone")}}
-           
-          @endif
-          </div>
-          <div class="flex flex-col" action="">
-            <label class="block pb-2 text-lg text-red-600 " for="Email">Company website or social media *</label>
-            <input name="link" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text"
-              placeholder="Enter a link">
-         
+                {{$errors->first("name")}}
+            
+                @endif
             </div>
-        </div>
-        <div>
-          <div class="flex flex-col" action="">
-            <label class="block pb-2 text-lg text-red-600 " for="Name">Tell us how can we help you? *</label>
-            <div class="mt-1">
-              <textarea name="info"  rows="3" class="resize-y w-full rounded-lg p-3 bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400"
-                placeholder="Write your message"></textarea>
-                @if($errors->has("info"))
-            
+            <div class="flex flex-col" action="">
+              <label class="block pb-2 text-lg text-red-600 " for="Email">Email Address *</label>
+              <input name="email" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text"
+                placeholder="Enter your Email">
+                @if($errors->has("email"))
+              
 
-              {{$errors->first("info")}}
-           
-          @endif
+                {{$errors->first("email")}}
+            
+            @endif
+            </div>
+            
+          </div>
+          <div class="md:grid grid-cols-2 md:space-x-10 ">
+            <div class="flex flex-col" action="">
+              <label class="block pb-2 text-lg text-red-600 " for="Name">Phone Number *</label>
+              <input name="phone" placeholder="Enter you Phone Number" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text">
+              @if($errors->has("phone"))
+              
+
+                {{$errors->first("phone")}}
+            
+            @endif
+            </div>
+            <div class="flex flex-col" action="">
+              <label class="block pb-2 text-lg text-red-600 " for="Email">Company website or social media *</label>
+              <input name="link" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text"
+                placeholder="Enter a link">
+          
               </div>
           </div>
+          <div>
+            <div class="flex flex-col" action="">
+              <label class="block pb-2 text-lg text-red-600 " for="Name">Tell us how can we help you? *</label>
+              <div class="mt-1">
+                <textarea name="info"  rows="3" class="resize-y w-full rounded-lg p-3 bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400"
+                  placeholder="Write your message"></textarea>
+                  @if($errors->has("info"))
+              
+
+                {{$errors->first("info")}}
+            
+            @endif
+                </div>
+            </div>
+          </div>
+          <!-- Submit-btn -->
+          <div class="flex justify-center mt-8">
+            <button id="bg-color-main"class="px-14 py-3 rounded-full shadow-md 
+                  focus:outline-none hover:shadow-xl hover:text-white ease-in text-2xl
+                  text-white duration-200" type="submit" >Submit</button>
+          </div>
         </div>
-        <!-- Submit-btn -->
-        <div class="flex justify-center mt-8">
-          <button id="bg-color-main"class="px-14 py-3 rounded-full shadow-md 
-                focus:outline-none hover:shadow-xl hover:text-white ease-in text-2xl
-                text-white duration-200" type="submit" >Submit</button>
-        </div>
-      </div>
-      </form>
-  </div>
-      <h1 id="err"></h1>
-  <div class="mt-8">
-    <h1 id="fontColor" class="text-center  text-3xl lg:text-4xl">Or you can give us a call at</h1> 
-    <p class=" mt-5 text-center text-3xl lg:text-4xl leading-loose tracking-wide	">
-    +964 772 644 4088
-    </p>
-  </div>
+        </form>
+    </div>
+        <h1 id="err"></h1>
+    <div class="mt-14 flex items-center justify-center space-x-10">
+      <h1 id="fontColor" class="text-center  text-3xl lg:text-4xl">Or you can give us a call at</h1> 
+      <p class="  text-center text-3xl lg:text-4xl leading-loose tracking-wide	">
+      +964 772 644 4088
+      </p>
+    </div>
       
     </div>
   </main>
   <!-- Section 3 -->
-  <main class="mt-8">
+  <main class="mt-10 lg:mt-20">
     <div class="lg:max-w-6xl m-5  lg:mx-auto">
       <div class=" mt-10 my-5  items-center space-y-5 lg:spcae-y-0 ">
         <!-- text -->
@@ -200,10 +201,10 @@
  </main>
     
  <!-- Footer  -->
- <footer class="mt-24 relative">
+ <footer class="mt-32 relative">
         <div id="footerColor"  class="flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
           <button>
-            <a href="">
+            <a href="#topPage">
               <img  src="imgs/LOGO HI Influencers White.svg" class="w-10 animate-bounce " alt="Hi-Influncer">
             </a>
           </button>
