@@ -3,7 +3,7 @@
 @section('content')
 <div class="bg-gray-200 ">
     <div class="row flex justify-center items-center">
-        <div class="bg-white p-5 rounded-3xl shadow-xl">
+        <div class="bg-white p-5 rounded-2xl shadow-xl">
             <div class="text-3xl flex justify-center items-center ">
                 
                 {{-- {{ __('Login') }} --}}
