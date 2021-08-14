@@ -28,5 +28,13 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  */
 
 const app = new Vue({
-    el: '#app',
+    el:'#app',
+    data:{
+      activeTab:'food',
+    },
+    methods:{
+      toggleTabs(tab){
+        this.activeTab = tab
+      }
+    }
 });
