@@ -66,13 +66,13 @@
   </div>
   <!-- Main -->
   <!-- Section-1 -->
-  <main class="mt-10 lg:mt-20">
+  <main class="lg:mt-10 mt-5  ">
     <div class="lg:max-w-6xl m-5  lg:mx-auto">
       <div id="MainColor"
         class="rounded-3xl flex flex-col  lg:flex-row justify-between overflow-hidden lg:overflow-visible items-center  shadow-xl ">
         <!-- Info -->
-        <div class=" w-1/2  lg:mx-10 my-10 text-center md:text-center lg:text-left">
-        <h1 id="fontColor" class="  font-bold py-1 text-4xl lg:text-6xl">
+        <div class="   lg:mx-10 my-10 text-center md:text-center lg:text-left">
+        <h1 id="fontColor" class="  font-bold py-1 text-4xl lg:text-5xl">
         Got a question?
         </h1>
         <p class="font-light pb-3 mx-5 lg:mx-0  text-md  lg:text-2xl text-white lg:text-justify">
@@ -81,7 +81,7 @@
 
         </div>
         <!-- illustration -->
-        <div class="lg:mt-10 w-1/2 mt-3 ml-14 overflow-hidden">
+        <div class="ml-20 md:mt-5">
           <img src="imgs\Card-icon\Artboard 1.svg" class="w-screen" alt="Hi Influencer">
         </div>
       </div>
@@ -177,8 +177,8 @@
         </form>
     </div>
         <h1 id="err"></h1>
-    <div class="mt-14 flex items-center justify-center space-x-10">
-      <h1 id="fontColor" class="text-center  text-3xl lg:text-4xl">Or you can give us a call at</h1> 
+    <div class="mt-14 flex flex-col md:flex-row items-center justify-center md:space-x-10">
+      <h1 id="fontColor" class="text-center  text-2xl lg:text-4xl">Or you can give us a call at</h1> 
       <p class="  text-center text-3xl lg:text-4xl leading-loose tracking-wide	">
       +964 772 644 4088
       </p>

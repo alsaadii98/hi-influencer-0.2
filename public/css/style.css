@@ -1,232 +1,239 @@
-html{
-  scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 body {
-    font-family: 'Palanquin', sans-serif;
-  }
-  .box-rounded {
+    font-family: "Palanquin", sans-serif;
+}
+.box-rounded {
     border-radius: 4rem;
-  }
-  @media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 600px) {
     .box-rounded {
-      border-radius: 1.5rem;
+        border-radius: 1.5rem;
     }
-  }
-  #fontColor {
+}
+#fontColor {
     color: #d45252;
-  }
-  #footerColor{
+}
+#footerColor {
     background-color: #282f48;
-  }
-  #bg-color-main{
+}
+#bg-color-main {
     background-color: #d45252;
-  }
-  #MainColor {
+}
+#MainColor {
     background: rgb(40, 47, 72);
     background: linear-gradient(
-      153deg,
-      rgba(40, 47, 72, 1) 0%,
-      rgba(136, 67, 78, 1) 100%,
-      rgba(212, 82, 82, 1) 100%
+        153deg,
+        rgba(40, 47, 72, 1) 0%,
+        rgba(136, 67, 78, 1) 100%,
+        rgba(212, 82, 82, 1) 100%
     );
-  }
-  #ColorBtn {
+}
+#Cirfoot {
+    background: rgb(40, 47, 72);
+    background: linear-gradient(
+        120deg,
+        rgba(40, 47, 72, 1) 0%,
+        rgba(113, 62, 77, 1) 100%
+    );
+}
+
+#ColorBtn {
     background: rgb(58, 74, 133);
     background: linear-gradient(
-      153deg,
-      rgba(58, 74, 133, 1) 8%,
-      rgba(212, 82, 82, 1) 100%
+        153deg,
+        rgba(58, 74, 133, 1) 8%,
+        rgba(212, 82, 82, 1) 100%
     );
-  }
-  #CardBlue {
+}
+#CardBlue {
     background: rgb(116, 127, 170);
     background: linear-gradient(
-      153deg,
-      rgba(116, 127, 170, 1) 14%,
-      rgba(34, 48, 100, 1) 100%
+        153deg,
+        rgba(116, 127, 170, 1) 14%,
+        rgba(34, 48, 100, 1) 100%
     );
-  }
-  #CardRed {
+}
+#CardRed {
     background: rgb(212, 82, 82);
     background: linear-gradient(
-      153deg,
-      rgba(212, 82, 82, 1) 14%,
-      rgba(197, 72, 72, 1) 100%
+        153deg,
+        rgba(212, 82, 82, 1) 14%,
+        rgba(197, 72, 72, 1) 100%
     );
-  }
-  #CirRed {
-    background: rgb(241,148,148);
-    background: linear-gradient(166deg, rgba(241,148,148,1) 0%, rgba(212,82,82,1) 100%);
-  }
-  #CirBlue {
+}
+#CirRed {
+    background: rgb(241, 148, 148);
+    background: linear-gradient(
+        166deg,
+        rgba(241, 148, 148, 1) 0%,
+        rgba(212, 82, 82, 1) 100%
+    );
+}
+#CirBlue {
     background: rgb(116, 127, 170);
     background: linear-gradient(
-      159deg,
-      rgb(168, 182, 241) 0%,
-      rgba(34, 48, 100, 1) 100%
+        159deg,
+        rgb(168, 182, 241) 0%,
+        rgba(34, 48, 100, 1) 100%
     );
-  }
-  #counters {
+}
+#counters {
     background: rgb(232, 232, 232);
     background: linear-gradient(
-      318deg,
-      rgba(232, 232, 232, 1) 46%,
-      rgba(210, 210, 210, 1) 100%
+        318deg,
+        rgba(232, 232, 232, 1) 46%,
+        rgba(210, 210, 210, 1) 100%
     );
-  }
-  .Card1 {
+}
+.Card1 {
     height: 0.15rem;
-  
-  }
-  .Card2 {
+}
+.Card2 {
     height: 0.15rem;
-    
-  }
-  .Card3 {
+}
+.Card3 {
     height: 0.15rem;
-    
-  }
-  .Card4{
+}
+.Card4 {
     height: 0.15rem;
-    
-  }
-  /* //////////////////////////////////////// */
-  @media screen and (max-width: 1024px) {
+}
+/* //////////////////////////////////////// */
+@media screen and (max-width: 1024px) {
     .glide__slide img {
-      width: 100%;
-      padding: 2rem;
+        width: 100%;
+        padding: 2rem;
     }
-  }
-  @media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 600px) {
     .glide__slide img {
-      width: 100%;
-      padding: 3rem;
+        width: 100%;
+        padding: 3rem;
     }
-  }
-  @media screen and (max-width: 400px) {
+}
+@media screen and (max-width: 400px) {
     .glide__slide img {
-      width: 100%;
-      padding: 3rem;
+        width: 100%;
+        padding: 3rem;
     }
-  }
-  .images {
+}
+.images {
     display: flex;
     justify-content: center;
     flex-direction: column;
-  }
-  .glide__slide img {
+}
+.glide__slide img {
     width: 100%;
     padding: 1rem;
-  }
-  .glide__slide {
+}
+.glide__slide {
     filter: blur(10xp);
     opacity: 0.3;
     transition: all 0.6s ease-in-out;
-  }
-  .glide__slide--active {
+}
+.glide__slide--active {
     opacity: 1;
     filter: none;
     transform: scale(1.02, 1.02);
-  }
-  .glide__slides {
+}
+.glide__slides {
     overflow: visible;
-  }
-  
-  .nav {
+}
+
+.nav {
     position: relative;
     padding: 2rem;
     align-items: center;
-  }
-  
-  .glide__bullet {
+}
+
+.glide__bullet {
     width: 0.7rem;
     margin: 0 6px;
     height: 0.7rem;
     transition: all 0.6s ease-in-out;
-  }
-  .glide__bullet--active {
+}
+.glide__bullet--active {
     transform: scale(1.5, 1.5);
-  }
-  .glide__arrows {
+}
+.glide__arrows {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-  }
-  .glide__arrow {
+}
+.glide__arrow {
     border: none;
     box-shadow: none;
     -webkit-tap-highlight-color: transparent;
-  }  
-  
-  
-  /* /////////////////////////////////////// */
-  /* Animation */
-  
-  .fadeIn {
+}
+
+/* /////////////////////////////////////// */
+/* Animation */
+
+.fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-  }
-  @-webkit-keyframes fadeIn {
+}
+@-webkit-keyframes fadeIn {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  @keyframes fadeIn {
+}
+@keyframes fadeIn {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  .slideInDown {
+}
+.slideInDown {
     -webkit-animation-name: slideInDown;
     animation-name: slideInDown;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-  }
-  @-webkit-keyframes slideInDown {
+}
+@-webkit-keyframes slideInDown {
     0% {
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%);
-      visibility: visible;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        visibility: visible;
     }
     100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
-  }
-  @keyframes slideInDown {
+}
+@keyframes slideInDown {
     0% {
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%);
-      visibility: visible;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        visibility: visible;
     }
     100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
-  }
-  /* Style the tab */
+}
+/* Style the tab */
 .tab {
-  /* overflow: hidden;
+    /* overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1; */
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  /* background-color: inherit;
+    /* background-color: inherit;
   float: left;
   border: none;
   outline: none;
@@ -237,18 +244,18 @@ body {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  /* background-color: #ddd; */
+    /* background-color: #ddd; */
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  /* background-color: #ccc; */
+    /* background-color: #ccc; */
 }
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
-  /* padding: 6px 12px;
+    display: none;
+    /* padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none; */
 }

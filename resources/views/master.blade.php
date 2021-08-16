@@ -105,31 +105,31 @@
           <div class="lg:mt-20 mt-10 mx-24">
             <!-- logos -->
             <div class="flex flex-col md:space-y-20 space-y-5 items-center ">
-              <div class="flex justify-center md:space-x-10 space-x-0 space-y-10 lg:space-y-0  flex-col md:flex-row ">
+              <div class="flex justify-evenly items-center  md:space-x-10 space-x-0 space-y-10 lg:space-y-0  flex-col md:flex-row ">
                 <div class="flex justify-center items-center">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 1.svg" alt="">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 2.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 1.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 2.svg" alt="">
                 </div>
                 <div class="flex justify-center items-center ">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 3.svg" alt="">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 4.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 3.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 4.svg" alt="">
                 </div>
                 <div class="md:flex hidden justify-center items-center">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 5.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 5.svg" alt="">
                 </div>
               </div>
-              <div class="flex justify-center flex-col md:flex-row">
+              <div class="flex justify-evenly items-center space-y-10 md:space-y-0 flex-col md:flex-row">
                 
-                <div class="flex justify-center space-y-10 lg:space-y-0  items-center">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 6.svg" alt="">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 7.svg" alt="">
+                <div class=" flex justify-center  lg:space-y-0  items-center">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 6.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 7.svg" alt="">
                 </div>
                 <div class="flex justify-center items-center">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 8.svg" alt="">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 9.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 8.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 9.svg" alt="">
                 </div>
                 <div class="flex md:hidden justify-center items-center mt-3 lg:mt-0">
-                  <img class="w-52" src="imgs\Our Customers\Mask Group 5.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 5.svg" alt="">
                 </div>
                 
               </div>
@@ -396,7 +396,7 @@
     </main>
       <!-- Footer  -->
       <footer class="mt-24 relative">
-        <div id="footerColor"  class="flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
+        <div id="footerColor" class="flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
           <button>
             <a href="#topPage">
               <img  src="imgs/LOGO HI Influencers White.svg" class="w-10 animate-bounce " alt="Hi-Influncer">
@@ -405,7 +405,7 @@
           
         </div>
 
-        <div id="footerColor" class=" p-10 mx-auto rounded-tr-3xl rounded-tl-3xl shadow-2xl  lg:flex justify-center lg:space-x-10 items-center text-white">
+        <div id="footerColor"  class=" p-10 mx-auto rounded-tr-3xl rounded-tl-3xl shadow-2xl  lg:flex justify-center lg:space-x-10 items-center text-white">
           <div class="flex flex-col justify-evenly ">
           <!-- Contact -->
           <div class="lg:flex  items-center space-y-5 lg:space-y-0  lg:space-x-10  p-5">
