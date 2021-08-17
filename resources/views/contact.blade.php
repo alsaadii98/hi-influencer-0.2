@@ -71,7 +71,7 @@
       <div id="MainColor"
         class="rounded-3xl flex flex-col  lg:flex-row justify-between overflow-hidden lg:overflow-visible items-center  shadow-xl ">
         <!-- Info -->
-        <div class="   lg:mx-10 my-10 text-center md:text-center lg:text-left">
+        <div class="lg:mx-10 my-10 text-center md:text-center lg:text-left">
         <h1 id="fontColor" class="  font-bold py-1 text-4xl lg:text-5xl">
         Got a question?
         </h1>
@@ -88,31 +88,29 @@
     </div>
   </main>
   <!-- Section-2 -->
-  <main class="mt-10 lg:mt-20">
-    <div class="lg:max-w-6xl m-5  lg:mx-auto">
+  <main class="mt-10 lg:mt-20 ">
+    <div class="lg:max-w-6xl lg:mx-auto">
     <h1 id="fontColor" class="text-center font-bold text-4xl lg:text-5xl">Let's Get In Touch</h1> 
     <p class=" mt-5 text-center text-lg lg:text-2xl leading-loose tracking-wide	">
     Submit the form below, tell us a bit more about your business, and we’ll be in touch shortly
     </p>
-    <div class="relative mt-20 mx-auto">
-      <div class=" bg-white flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
-            <button>
-              <a href="">
-                <img  src="imgs/LOGO HI Influencers.svg" class="w-10" alt="Hi-Influncer">
-              </a>
-            </button>
-            
-          </div>
+    <div class="relative mt-20 lg:mx-20 mx-5">
+
+      <div class=" bg-white flex justify-center mx-auto  absolute inset-x-0 -top-10 md:-top-12 lg:-top-12 w-28 h-28 rounded-full ">
+        <button>
+            <img  src="imgs/LOGO HI Influencers.svg" class="w-10 mb-3" alt="Hi-Influncer">
+        </button>
+      </div>
           
         <!--Form-->
         <form action="/contact" method="POST">
         @csrf
-        <div class=" bg-white rounded-2xl shadow-xl lg:p-16 p-10   mt-5 flex flex-col justify-center">
+        <div class="bg-white rounded-2xl shadow-xl lg:p-10 p-5 mt-7 flex flex-col justify-center">
           
-          <div class="md:grid grid-cols-2 md:space-x-10  ">
+          <div class="md:grid grid-cols-2 md:space-x-10 mt-5  ">
             <div class="flex flex-col" action="">
-              <label class="block pb-2 text-lg text-red-600 " for="Name">Name *</label>
-              <input name="name" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 " type="text"
+              <label class="block py-3 text-lg text-red-600 " for="Name">Name *</label>
+              <input name="name" class="block p-3 lg:w-11/12 bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 " type="text"
                 placeholder="Enter your name">
                 @if($errors->has("name"))
               
@@ -122,8 +120,8 @@
                 @endif
             </div>
             <div class="flex flex-col" action="">
-              <label class="block pb-2 text-lg text-red-600 " for="Email">Email Address *</label>
-              <input name="email" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text"
+              <label class="block  text-lg py-3 text-red-600 " for="Email">Email Address *</label>
+              <input name="email" class="block p-3 bg-gray-100  rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text"
                 placeholder="Enter your Email">
                 @if($errors->has("email"))
               
@@ -136,8 +134,8 @@
           </div>
           <div class="md:grid grid-cols-2 md:space-x-10 ">
             <div class="flex flex-col" action="">
-              <label class="block pb-2 text-lg text-red-600 " for="Name">Phone Number *</label>
-              <input name="phone" placeholder="Enter you Phone Number" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text">
+              <label class="block py-3 text-lg text-red-600 " for="Name">Phone Number *</label>
+              <input name="phone" placeholder="Enter you Phone Number" class="block  lg:w-11/12 bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text">
               @if($errors->has("phone"))
               
 
@@ -146,17 +144,17 @@
             @endif
             </div>
             <div class="flex flex-col" action="">
-              <label class="block pb-2 text-lg text-red-600 " for="Email">Company website or social media *</label>
-              <input name="link" class="block  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text"
+              <label class="block py-3 text-lg text-red-600 " for="Email">Company website or social media *</label>
+              <input name="link" class="block bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400 " type="text"
                 placeholder="Enter a link">
           
               </div>
           </div>
           <div>
             <div class="flex flex-col" action="">
-              <label class="block pb-2 text-lg text-red-600 " for="Name">Tell us how can we help you? *</label>
-              <div class="mt-1">
-                <textarea name="info"  rows="3" class="resize-y w-full rounded-lg p-3 bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400"
+              <label class="block py-3 text-lg text-red-600 " for="Name">Tell us how can we help you? *</label>
+              <div class="mt-1 flex justify-start">
+                <textarea name="info"  rows="5" class="w-full resize-y p-3 rounded-lg  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400"
                   placeholder="Write your message"></textarea>
                   @if($errors->has("info"))
               
@@ -177,9 +175,9 @@
         </form>
     </div>
         <h1 id="err"></h1>
-    <div class="mt-14 flex flex-col md:flex-row items-center justify-center md:space-x-10">
-      <h1 id="fontColor" class="text-center  text-2xl lg:text-4xl">Or you can give us a call at</h1> 
-      <p class="  text-center text-3xl lg:text-4xl leading-loose tracking-wide	">
+    <div class="my-20 flex flex-col space-y-5  items-center justify-center ">
+      <h1 id="fontColor" class="text-center font-bold text-2xl lg:text-4xl">Or you can give us a call at</h1> 
+      <p class="  text-center text-3xl lg:text-4xl  tracking-wide	">
       +964 772 644 4088
       </p>
     </div>
@@ -187,7 +185,7 @@
     </div>
   </main>
   <!-- Section 3 -->
-  <main class="mt-10 lg:mt-20">
+  <main class="mt-10 lg:mt-20 my-40">
     <div class="lg:max-w-6xl m-5  lg:mx-auto">
       <div class=" mt-10 my-5  items-center space-y-5 lg:spcae-y-0 ">
         <!-- text -->
@@ -202,7 +200,7 @@
     
  <!-- Footer  -->
  <footer class="mt-32 relative">
-        <div id="footerColor"  class="flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
+        <div id="footerColor"  class=" cir flex justify-center mx-auto  absolute inset-x-0 -top-10 md:-top-12 lg:-top-12  h-28 rounded-full ">
           <button>
             <a href="#topPage">
               <img  src="imgs/LOGO HI Influencers White.svg" class="w-10 animate-bounce " alt="Hi-Influncer">

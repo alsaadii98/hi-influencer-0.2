@@ -107,29 +107,29 @@
             <div class="flex flex-col md:space-y-20 space-y-5 items-center ">
               <div class="flex justify-evenly items-center  md:space-x-10 space-x-0 space-y-10 lg:space-y-0  flex-col md:flex-row ">
                 <div class="flex justify-center items-center">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 1.svg" alt="">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 2.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 1.svg" alt="Amwal">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 2.svg" alt="IOT Maker">
                 </div>
                 <div class="flex justify-center items-center ">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 3.svg" alt="">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 4.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 3.svg" alt="XO Center">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 4.svg" alt="IOT Kids">
                 </div>
                 <div class="md:flex hidden justify-center items-center">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 5.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 5.svg" alt="CoWork">
                 </div>
               </div>
               <div class="flex justify-evenly items-center space-y-10 md:space-y-0 flex-col md:flex-row">
                 
                 <div class=" flex justify-center  lg:space-y-0  items-center">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 6.svg" alt="">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 7.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 6.svg" alt="Zafa">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 7.svg" alt="Photonect">
                 </div>
                 <div class="flex justify-center items-center">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 8.svg" alt="">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 9.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 8.svg" alt="Le Modlin D'or">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 9.svg" alt="Arya clinic">
                 </div>
                 <div class="flex md:hidden justify-center items-center mt-3 lg:mt-0">
-                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 5.svg" alt="">
+                  <img class="w-52 m-2 md:m-0" src="imgs\Our Customers\Mask Group 5.svg" alt="CoWork">
                 </div>
                 
               </div>
@@ -145,11 +145,13 @@
     <div id="whatWedo">
     <main class="mt-10 lg:mt-20">
       <div class="lg:max-w-6xl m-5  lg:mx-auto">
-        <h1 id="fontColor" class="text-center font-bold text-4xl lg:text-5xl">Save your time</h1> 
-        <p class=" mt-5 text-center text-lg lg:text-2xl leading-loose tracking-wide	">
+        <h1 id="fontColor" class="text-center font-bold text-4xl lg:text-5xl">Save your time</h1>
+        <div class="flex justify-center"> 
+        <p class=" lg:w-3/4 mt-5 text-center text-lg lg:text-2xl leading-loose tracking-wide	">
           Time is money, at Hi Influencer we generate time for you, where we’re able to 
           save on you days of work while we do the following:-
         </p>
+      </div>
         <!-- Card 1&2 -->
         <!-- Card-1 -->
         <div class=" mt-10 my-5 mx-5 flex  flex-col lg:flex-row justify-between items-center space-y-8 lg:spcae-y-0 ">
@@ -264,13 +266,15 @@
                   <h1 id="fontColor" class="text-3xl  lg:text-6xl font-bold leading-snug ">
                     Good content grabs your attention, Create attention grabbing content!
                   </h1>
-                  <p class=" font-normal text-lg lg:text-2xl  leading-loose tracking-wide	lg:mt-5 mt-3"> 
+                  
+                  <p class="font-normal text-lg lg:text-2xl  leading-loose tracking-wide	lg:mt-5 mt-3"> 
                     Content is king, while it is one of the important methods to show your 
                     products to the people, at Hi Influencer we’re able to generate influencing and 
                     attention-grabbing content from small influencers, where the content from 
                     this influencers category appears as organic content as well as this type of 
                     content, will enhance people's confidence in the products offered.
                   </p>
+                
                 </div>
             </div>
           </div>
@@ -283,11 +287,13 @@
           <h1 id="fontColor" class="text-center  font-bold text-5xl">
             Influencers We’ve Worked With
           </h1>
-          <p class="mb-10 mt-5 mx-3 text-center text-lg lg:text-2xl font-mediem leading-normal">
+          <div class="flex justify-center">
+          <p class="w-11/12	 mb-10 mt-5 mx-3 text-center text-lg lg:text-2xl font-mediem leading-normal">
             We are able to match your brand with the right influencers, from
             small influencers categories to the bigger categories, here are a few
             amazing influencers that we’ve worked with.
           </p>
+        </div>
           <!-- Glider JS -->
           <div id="CardBlue" class=" shadow-2xl p-2 rounded-2xl">
             
@@ -348,6 +354,10 @@
                       <button class="glide__bullet" data-glide-dir="=3"></button>
                       <button class="glide__bullet" data-glide-dir="=4"></button>
                       <button class="glide__bullet" data-glide-dir="=5"></button>
+                      <button class="glide__bullet" data-glide-dir="=6"></button>
+                      <button class="glide__bullet" data-glide-dir="=7"></button>
+                      <button class="glide__bullet" data-glide-dir="=8"></button>
+                      
                     </div>
                   
                     <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
@@ -375,7 +385,7 @@
       </main>
     </div>
     <!-- Section-6 -->
-    <main class="mt-10 lg:mt-32">
+    <main class=" my-24 lg:my-40 lg:mt-32">
       <div class="lg:max-w-3xl m-5  lg:mx-auto">
         <!-- About us -->
        
@@ -384,7 +394,7 @@
             Ready to create your influencers campaign?
             Contact us now
           </h1>
-          <div class="mt-5 flex justify-center">
+          <div class="mt-7 flex justify-center">
             <button id="ColorBtn"class="px-8 lg:px-14 py-4 rounded-full shadow-md 
             focus:outline-none hover:shadow-xl hover:text-white ease-in text-2xl
             text-white duration-200">
@@ -396,7 +406,7 @@
     </main>
       <!-- Footer  -->
       <footer class="mt-24 relative">
-        <div id="footerColor" class="flex justify-center mx-auto  absolute inset-x-0 -top-12 md:-top-13 lg:-top-14 w-28 h-28 rounded-full ">
+        <div id="footerColor" class="cir flex justify-center mx-auto  absolute inset-x-0 -top-10 md:-top-12 lg:-top-12  h-28 rounded-full ">
           <button>
             <a href="#topPage">
               <img  src="imgs/LOGO HI Influencers White.svg" class="w-10 animate-bounce " alt="Hi-Influncer">

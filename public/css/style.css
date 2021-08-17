@@ -99,6 +99,12 @@ body {
 .Card4 {
     height: 0.15rem;
 }
+.cir{
+    width: 6.5rem;
+}
+/* .textarea{
+    width: 96%;
+} */
 /* //////////////////////////////////////// */
 @media screen and (max-width: 1024px) {
     .glide__slide img {
@@ -130,7 +136,7 @@ body {
 .glide__slide {
     filter: blur(10xp);
     opacity: 0.3;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .glide__slide--active {
     opacity: 1;
@@ -151,7 +157,7 @@ body {
     width: 0.7rem;
     margin: 0 6px;
     height: 0.7rem;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .glide__bullet--active {
     transform: scale(1.5, 1.5);
