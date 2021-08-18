@@ -24,7 +24,7 @@ Route::get('/contact', [EmailController::class,'index']);
 
 Route::post('/contact',[EmailController::class,'store']);
 
-Auth::routes();
+Auth::routes(['register' => false]);
 Route::get('/logout', [LoginController::class,'logout']);
 
 
