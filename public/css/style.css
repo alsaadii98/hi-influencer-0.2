@@ -1,6 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+html,
+body {
+    width: auto !important;
+    overflow-x: hidden !important;
+}
 body {
     font-family: "Palanquin", sans-serif;
 }
@@ -119,17 +124,27 @@ body {
 .Card4 {
     height: 0.15rem;
 }
-.cir{
+.cir {
     width: 6.5rem;
 }
 .bounce2 {
     animation: bounce2 5s ease-in-out infinite;
-  }
-  @keyframes bounce2 {
-      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-      40% {transform: translateY(-10px);}
-      60% {transform: translateY(-10px);}
-  }
+}
+@keyframes bounce2 {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
 /* //////////////////////////////////////// */
 @media screen and (max-width: 1024px) {
     .glide__slide img {

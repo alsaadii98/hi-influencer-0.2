@@ -26,7 +26,7 @@
           <div class="flex items-center justify-between">
               <!-- Logo -->
               <div>
-              <a href="#" class="flex items-center space-x-3">
+              <a href="/" class="flex items-center space-x-3">
                   <img src="imgs/LOGO HI Influencers.svg" class="w-8" alt="Hi influencer">
                   <span class="font-bold text-xl lg:text-2xl " >Hi Influencer</span>
               </a>   

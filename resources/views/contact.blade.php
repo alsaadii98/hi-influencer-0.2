@@ -22,17 +22,17 @@
         <div class="flex items-center justify-between">
             <!-- Logo -->
             <div>
-            <a href="#" class="flex items-center space-x-3">
+            <a href="/" class="flex items-center space-x-3">
                 <img src="imgs/LOGO HI Influencers.svg" class="w-8" alt="Hi influencer">
                 <span class="font-bold text-xl lg:text-2xl " >Hi Influencer</span>
             </a>   
             </div>
             <!-- Primary nav -->
             <div class="hidden  lg:flex space-x-10 ">
-                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#home">Home</a>
+                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="/">Home</a>
                 
-                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#whatWedo">What we do</a>
-                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="#Influencers">Influencers</a>
+                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="/#whatWedo">What we do</a>
+                <a class="text-xl p-2 font-medium hover:text-red-500 ease-in duration-150 focus:outline-none " href="/#Influencers">Influencers</a>
             </div>
             <!-- Mobile btn  -->
             
@@ -48,8 +48,8 @@
       <div id="Mobile-menu" class="mt-2 bg-gray-300 rounded-xl md:hidden hidden ">
         <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="/">Home</a>
         
-        <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#whatWedo">What we do</a>
-        <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="#Influencers">Influencers</a>
+        <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="/#whatWedo">What we do</a>
+        <a class="text-md block py-4 px-2 hover:bg-red-500 rounded-xl focus:outline-none  hover:text-white ease-in duration-150 focus:outline-none " href="/#Influencers">Influencers</a>
         <div class="flex items-center justify-center space-x-5 p-5">
           
             <a href="http://www.instagram.com/hiinfluencer.iq">
@@ -154,7 +154,7 @@
           <div>
             <div class="flex flex-col" action="">
               <label class="block py-3 text-lg text-red-600 " for="Name">Tell us how can we help you? *</label>
-              <div class="mt-1 flex justify-start">
+              <div class="mt-1 flex flex-col justify-start">
                 <textarea name="info"  rows="5" class="w-full resize-y p-3 rounded-lg  bg-gray-100 p-3 rounded-lg cursor-auto focus:outline-none focus:ring-2 focus:ring-red-400 placeholder-gray-400"
                   placeholder="Write your message"></textarea>
                   @if($errors->has("info"))
