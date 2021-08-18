@@ -171,7 +171,7 @@
           </div>
           <!-- icon contianer -->
           <div id="CardBlue" class="mt-8 lg:mt-0 box-rounded2  flex justify-center itmes-center overflow-hidden  p-5  lg:p-8 shadow-xl"> 
-            <img class="w-80" src="imgs/Card-icon/Brord.svg" alt="">
+            <img class="w-80" src="imgs/Card-icon/Brord.svg" alt="Campaign strategy">
           </div>
         </div>
         <!-- Card-2 -->
@@ -190,7 +190,7 @@
           </div>
           <!-- icon contianer -->
           <div id="CardBlue" class="mt-8 lg:mt-0 box-rounded2  flex justify-center itmes-center overflow-hidden  p-5  lg:p-8  shadow-xl"> 
-            <img class="w-80" src="imgs/Card-icon/Filtter.svg"  alt="">
+            <img class="w-80" src="imgs/Card-icon/Filtter.svg"  alt="Right influencers">
           </div>
         </div>
         <!-- Card-3 -->
@@ -208,7 +208,7 @@
           </div>
           <!-- icon contianer -->
           <div id="CardBlue" class="mt-8 lg:mt-0 box-rounded2  flex justify-center  overflow-hidden  lg:w-96 p-5  lg:p-8  shadow-xl"> 
-            <img class="w-80" src="imgs/Card-icon/Mesagge.svg" alt="">
+            <img class="w-80" src="imgs/Card-icon/Mesagge.svg" alt="Coordination & Follow-up">
           </div>
         </div>
         <!-- Card-4 -->
@@ -229,7 +229,7 @@
           </div>
           <!-- icon contianer -->
           <div id="CardRed" class="mt-8 lg:mt-0 box-rounded2 flex  justify-center  overflow-hidden lg:w-96 p-5  lg:p-8 shadow-xl"> 
-            <img class="w-80" src="imgs/Card-icon/REPORT.svg" alt="">
+            <img class="w-80" src="imgs/Card-icon/Report.svg alt="Detailed reporting">
           </div>
         </div>
       </div>
@@ -256,11 +256,11 @@
                   </div>
                  
                   <div  v-if="activeTab == 'E-commerce'">
-                    <img class="w-full object-fill m-0" src="imgs/Influencers Content/E-commerce.PNG" alt="E-commerce">
+                    <img class="w-full object-fill m-0" src="imgs\Influencers Content\E-commerce.png" alt="E-commerce">
                   </div>
                   
                   <div  v-if="activeTab == 'Life-style'">
-                    <img class="w-full object-fill m-0" src="imgs/Influencers Content/Life-Style.PNG" alt="Life-Style">
+                    <img class="w-full object-fill m-0" src="imgs\Influencers Content\LIfe-Style.png" alt="Life-Style">
                   </div>
 
                 </div>
