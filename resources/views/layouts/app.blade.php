@@ -19,6 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="icon" href="imgs/LOGO HI Influencers.svg">
+    <link rel="stylesheet" href="css\style.css">
 </head>
 <body class="bg-gray-200">
     <div id="app">
