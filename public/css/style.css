@@ -1,10 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
-html,
-body {
-    width: auto !important;
-    overflow-x: hidden !important;
+html, body {
+    position: relative;
+    overflow-x: hidden;
 }
 body {
     font-family: "Palanquin", sans-serif;

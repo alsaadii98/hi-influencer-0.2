@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
     
   </head>
-  <body class="bg-gray-200 fadeIn ">
+  <body class="bg-gray-200 fadeIn overflow-x-hidden max-w-full ">
 <div id="app">
   
 
