@@ -80,7 +80,7 @@
               <h1 id="fontColor" class="  font-bold py-1 text-4xl lg:text-6xl">
                 Hi Influencer
               </h1>
-              <p class="font-light pb-3 mx-5  text-md  lg:text-2xl text-white lg:text-justify">
+              <p class="font-light pb-3 mx-5 lg:mx-0  text-md  lg:text-2xl text-white lg:text-justify">
                 We are an influencers marketing agency, we connect companies with the 
                 right influencers to create an influencers campaigns that influence
               </p>
