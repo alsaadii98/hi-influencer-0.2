@@ -229,7 +229,7 @@
           </div>
           <!-- icon contianer -->
           <div id="CardRed" class="mt-8 lg:mt-0 box-rounded2 flex  justify-center  overflow-hidden lg:w-96 p-5  lg:p-8 shadow-xl"> 
-            <img class="w-80" src="imgs/Card-icon/Report.svg alt="Detailed reporting">
+            <img class="w-80" src="imgs/Card-icon/Report.svg" alt="Detailed reporting">
           </div>
         </div>
       </div>
