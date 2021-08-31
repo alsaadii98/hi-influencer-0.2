@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="yandex-verification" content="a1bf66e2551cd711" />
     <title>Hi Influencer</title>
     
     <link rel="stylesheet" href="css/style.css" />
