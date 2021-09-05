@@ -14,6 +14,15 @@
     <link rel="icon" href="imgs/LOGO HI Influencers.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T9THFNQMQ5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T9THFNQMQ5');
+</script>
     
   </head>
   <body class="bg-gray-200 fadeIn overflow-x-hidden max-w-full ">
